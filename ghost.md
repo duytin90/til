@@ -6,7 +6,7 @@
 #####On Windows
 [Download latest Node](https://nodejs.org/en/download/)
 
-[Follow tutorial to install node](http://support.ghost.org/installing-ghost-windows/) - *very straightforward*
+[Follow tutorial to install ghost](http://support.ghost.org/installing-ghost-windows/) - *very straightforward*
 
 By default, Ghost runs in Development mode. In order to run in production mode, have to set NODE_ENV=production. In cmd, run
 
