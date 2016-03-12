@@ -27,9 +27,10 @@ The new shell script gives the mysql user the right permission to write to OSX v
     ENTRYPOINT ["/localdb-run.sh"] 
 
 The new entrypoint shell script file is 
+
     #!/bin/bash
     set -e
-    
+
     # Script to workaround docker-machine/boot2docker OSX host volume issues: https://github.com/docker-library/mysql/issues/99
     
     echo '* Working around permission errors locally by making sure that "mysql" uses the same uid and gid as the host volume'
